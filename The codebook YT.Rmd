@@ -16,6 +16,7 @@ It describes the variables, the data, and transformations that were performed to
 2. X_test.txt - Test data set
 3. y_test.txt - Test activity labels
 4. Inertial signals with 9 files
+
 ### 2. Train files
 1. subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 2. X_train.txt - Train data set
@@ -24,11 +25,13 @@ It describes the variables, the data, and transformations that were performed to
 
 UNITS:
 The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. 
+
 The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
+
 The units for angular velocity vector measured by the gyroscope for each window sample are radians/second. 
 
 ### 3. General files
-'README.txt'
+'README.txt' General information about the project.
 'features_info.txt': Shows information about the variables used on the feature vector.
 'features.txt': List of all features.
 'activity_labels.txt': Links the class labels with their activity name.
@@ -45,7 +48,10 @@ The step-by-step process with comments is provided in the run_analysis.R script.
 
 ## 3. Processed Data
 Tidy data sets (180x68) consists of:
- [1] "subject" - id running from 1 to 30 (30 volunteers)                       [2] "activity" - type of activity (6 levels)                                  [3] "timeBodyAcceleration_mean_X"                
+
+ [1] "subject"                                    
+ [2] "activity"                                   
+ [3] "timeBodyAcceleration_mean_X"                
  [4] "timeBodyAcceleration_mean_Y"                
  [5] "timeBodyAcceleration_mean_Z"                
  [6] "timeBodyAcceleration_std_X"                 
@@ -110,4 +116,4 @@ Tidy data sets (180x68) consists of:
 [65] "frequencyBodyGyroscopeMagnitude_mean"       
 [66] "frequencyBodyGyroscopeMagnitude_std"        
 [67] "frequencyBodyGyroscopeJerkMagnitude_mean"   
-[68] "frequencyBodyGyroscopeJerkMagnitude_std" 
+[68] "frequencyBodyGyroscopeJerkMagnitude_std"
