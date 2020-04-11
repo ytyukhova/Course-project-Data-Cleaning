@@ -8,7 +8,7 @@ output: html_document
 
 # The codebook
 # Project: Human Activity Recognition Using Smartphones Data Set 
-It describes the variables, the data, and transformations that were performed to clean up the data.
+It describes the variables, the data, and transformations that were performed to clean up the data. 
 
 ## 1. Raw Data
 ### 1. Test files
