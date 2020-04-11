@@ -7,7 +7,7 @@ output:
 ---
 
 # The codebook
-# Project: Human Activity Recognition Using Smartphones Data Set 
+## Project: Human Activity Recognition Using Smartphones Data Set 
 It describes the variables, the data, and transformations that were performed to clean up the data. 
 
 ## 1. Raw Data
@@ -116,8 +116,8 @@ Tidy data sets (180x68) consists of:
 [61] "frequencyBodyAccelerationMagnitude_mean"    
 [62] "frequencyBodyAccelerationMagnitude_std"     
 [63] "frequencyBodyAccelerationJerkMagnitude_mean"
-[64] "frequencyBodyAccelerationJerkMagnitude_std"
+[64] "frequencyBodyAccelerationJerkMagnitude_std" 
 [65] "frequencyBodyGyroscopeMagnitude_mean"       
 [66] "frequencyBodyGyroscopeMagnitude_std"        
 [67] "frequencyBodyGyroscopeJerkMagnitude_mean"   
-[68] "frequencyBodyGyroscopeJerkMagnitude_std"
+[68] "frequencyBodyGyroscopeJerkMagnitude_std"  
