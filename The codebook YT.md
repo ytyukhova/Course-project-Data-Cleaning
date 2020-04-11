@@ -31,7 +31,7 @@ The body acceleration signal obtained by subtracting the gravity from the total 
 
 The units for angular velocity vector measured by the gyroscope for each window sample are radians/second. 
 
-### 3. General files
+### 3. General files 
 'README.txt' General information about the project.
 'features_info.txt': Shows information about the variables used on the feature vector.
 'features.txt': List of all features.
