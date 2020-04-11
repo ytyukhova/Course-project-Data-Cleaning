@@ -81,9 +81,9 @@ str(data)
 
 ## STEP 2. Extract only the measurements on the mean and standard deviation for each measurement.
 ## Find measurements that have mean (except meanFreq) OR std in their names. Show values
-grep("mean[meanFreq]|std",names(data),value=TRUE)
+grep("mean[^meanFreq]|std",names(data),value=TRUE)
 ## Take only those columns from data that have mean (&except meanFreq and std in their name)
-mean_std<-data[,grep("mean[meanFreq]|std",names(data))]
+mean_std<-data[,grep("mean[^meanFreq]|std",names(data))]
 names(mean_std)
 ## Bind subject,activity,and mode
 data2<-cbind(data[,1:3],mean_std)
