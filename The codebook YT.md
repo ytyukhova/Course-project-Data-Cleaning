@@ -3,7 +3,6 @@ title: "The codebook"
 author: "YT"
 date: "4/11/2020"
 output:
-  pdf_document: default
   html_document: default
 ---
 
