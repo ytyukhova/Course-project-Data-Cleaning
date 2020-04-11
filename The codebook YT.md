@@ -18,12 +18,13 @@ It describes the variables, the data, and transformations that were performed to
 4. Inertial signals with 9 files
 
 ### 2. Train files
-1. subject_train.txt - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+1. subject_train.txt - Each row identifies the subject who performed the activity for each window sample (range from 1 to 30). 
 2. X_train.txt - Train data set
 3. y_train.txt - Train activity labels
 4. Inertial signals with 9 files
 
 UNITS:
+
 The acceleration signal from the smartphone accelerometer X axis in standard gravity units 'g'. 
 
 The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
@@ -32,15 +33,18 @@ The units for angular velocity vector measured by the gyroscope for each window 
 
 ### 3. General files 
 'README.txt' General information about the project.
+
 'features_info.txt': Shows information about the variables used on the feature vector.
+
 'features.txt': List of all features.
+
 'activity_labels.txt': Links the class labels with their activity name.
 
 ## 2. Summary of transformations
 The step-by-step process with comments is provided in the run_analysis.R script.
 1. Inertial signals (18) files were excluded, since they were not a part of the task.
 2. Loaded the remaining 6 files into R (3 for the test data set and 3 for the train data set).
-3. They were combined into one single data set with renamed columns using features.txt.
+3. Six files from step 2 were combined into one single data set with renamed columns using features.txt.
 4. Only the measurements on the mean and standard deviation for each measurement were extracted. A total of 66 measurements. meanFreq measurements were not included.
 5. Values in the column with activity codes (1-6) were renamed with descriptive names from activity_labels.txt.
 6. All columns were renamed with descriptive names.
@@ -112,7 +116,7 @@ Tidy data sets (180x68) consists of:
 [61] "frequencyBodyAccelerationMagnitude_mean"    
 [62] "frequencyBodyAccelerationMagnitude_std"     
 [63] "frequencyBodyAccelerationJerkMagnitude_mean"
-[64] "frequencyBodyAccelerationJerkMagnitude_std" 
+[64] "frequencyBodyAccelerationJerkMagnitude_std"
 [65] "frequencyBodyGyroscopeMagnitude_mean"       
 [66] "frequencyBodyGyroscopeMagnitude_std"        
 [67] "frequencyBodyGyroscopeJerkMagnitude_mean"   
